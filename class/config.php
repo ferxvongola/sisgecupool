@@ -21,7 +21,7 @@
 
    	  public function ruta(){
 
-   	  	return "http://localhost:8080/inventario_billar/";
+   	  	return "http://localhost:8080/masterpool/";
    	  }
 
    	  //Función para invertir fecha
