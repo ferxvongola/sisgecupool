@@ -1,0 +1,70 @@
+
+
+/*index*/
+
+body.pagina_index {
+    
+    background: #000000;
+}
+
+.pagina_index h2{
+
+	color:red;
+	margin-top:38px;
+	margin-bottom:38px;
+    padding-top: 50px;
+  background-size: 5%;
+  }
+
+.pagina_index label{
+
+	color:#ffffff;
+}
+
+
+/*menu principal*/
+
+.container-fluid.navbar_menu.contenedor-menu-principal {
+    background: #000000;
+}
+
+.container-fluid a.navbar-brand, .container-fluid a.navbar-brand:hover  {
+    color: #fff;
+}
+
+li.dropdown.navbar_dropdown {
+    background: #000000;
+    margin: 6px;
+}
+
+
+/*menu lateral*/
+    
+
+    a.btn.btn-primary.ajax-link:hover {
+        background: #000000;
+    }
+
+/*modulo reporte-pedidos*/
+
+  form.formulario-reporte-pedidos select{width:80%;}
+
+
+/*pagina agregar_venta.php*/
+
+ .pagina_venta ul.menu_izquierdo >li>a {
+    color: #000000;
+}
+
+/*footer*/
+
+footer.footer {
+	color:#fff;
+    background: #000000;
+    height: 50px;
+    padding: 13px 31px;
+}
+
+footer a, footer a:hover{
+	color:#ffffff;
+}
