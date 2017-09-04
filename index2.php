@@ -15,8 +15,9 @@ $usuario= new Usuarios();
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+<meta charset="utf-8">
+<head>  
 <?php require_once("head.php");?>
 </head>
 	<title>MasterPool Billar</title>
@@ -25,13 +26,12 @@ $usuario= new Usuarios();
 
 <!-- BEGIN # BOOTSNIP INFO -->
 <div class="container">
-<div class="container-fluid">
 	<div class="row">
 		<h1 class="text-center">Sistema de Ventas e Inventario</h1>
         <p class="text-center"><a href="#" class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#login-modal"><img src="<?php echo Conectar::ruta();?>public/images/masterPool.jpg" width="400" height="400"></a></p>
 	</div>
 </div>
-</div>	
+    	
 <!-- END # BOOTSNIP INFO -->
 
 <!-- BEGIN # MODAL LOGIN -->
@@ -55,12 +55,14 @@ $usuario= new Usuarios();
                                 <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
                                 <span id="text-login-msg">Digite Usuario y Contraseña.</span>
                             </div>
-				    		<input id="usuario" class="form-control" type="text" name="usuario" placeholder="Usuario" required>
-				    		<input id="password" class="form-control" type="password" name="password" placeholder="Contraseña" required>
+				    		<input class="form-control" type="text" name="usuario" placeholder="Usuario" required>
+				    		<input class="form-control" type="password" name="" placeholder="Contraseña" required>
         		    	</div>
+                        
+
 				        <div class="modal-footer">
-                            <div>
-                            	<input type="hidden" name="grabar" value="si">
+                            <div>                 	<input type="hidden" name="grabar" value="si">
+
                                 <button type="submit" class="btn btn-primary btn-lg btn-block">Entrar</button>
                             </div>
 				    	</div>

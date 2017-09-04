@@ -13,7 +13,7 @@ $(function() {
             case "login-form":
                 var $lg_username=$('#login_username').val();
                 var $lg_password=$('#login_password').val();
-                if ($lg_username == "") {
+                if ($lg_username == "ERROR") {
                     msgChange($('#div-login-msg'), $('#icon-login-msg'), $('#text-login-msg'), "error", "glyphicon-remove", "Login error");
                 } else {
                     msgChange($('#div-login-msg'), $('#icon-login-msg'), $('#text-login-msg'), "success", "glyphicon-ok", "Login OK");
@@ -22,7 +22,7 @@ $(function() {
                 break;
             case "lost-form":
                 var $ls_email=$('#lost_email').val();
-                if ($ls_email == "ERROR") {
+                if ($ls_email == "") {
                     msgChange($('#div-lost-msg'), $('#icon-lost-msg'), $('#text-lost-msg'), "error", "glyphicon-remove", "Send error");
                 } else {
                     msgChange($('#div-lost-msg'), $('#icon-lost-msg'), $('#text-lost-msg'), "success", "glyphicon-ok", "Send OK");
@@ -33,7 +33,7 @@ $(function() {
                 var $rg_username=$('#register_username').val();
                 var $rg_email=$('#register_email').val();
                 var $rg_password=$('#register_password').val();
-                if ($rg_username == "ERROR") {
+                if ($rg_username == "") {
                     msgChange($('#div-register-msg'), $('#icon-register-msg'), $('#text-register-msg'), "error", "glyphicon-remove", "Register error");
                 } else {
                     msgChange($('#div-register-msg'), $('#icon-register-msg'), $('#text-register-msg'), "success", "glyphicon-ok", "Register OK");
