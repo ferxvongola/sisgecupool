@@ -3,7 +3,6 @@
 
   class Usuarios extends Conectar{
      
-
   	  public function login(){
 
   	  	 $conectar=parent::conexion();
