@@ -33,6 +33,7 @@ $usuario= new Usuarios();
 	 		<div class="row">
 	 			<div class="col-sm-5 col-sm-offset-3">
 	 				<form method="post" action="">
+	 				<img src="<?php echo Conectar::ruta();?>public/images/masterPool.jpg" width="300px" heigth="300px">
                      <div class="form-group">
                      	<label for="">Usuario</label>
                      	<input type="text" name="usuario" class="form-control" placeholder="usuario">
