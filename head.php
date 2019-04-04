@@ -8,10 +8,9 @@
 
 
 
-
  <script type="text/javascript" src="<?php echo Conectar::ruta();?>public/js/jquery-1.11.2.min.js" language="javascript"></script>
 
-
+<script type="text/javascript" src="<?php echo Conectar::ruta();?>public/js/login.js" language="javascript"></script>
 
 
 
@@ -22,6 +21,10 @@
 
 
 <link rel="stylesheet" href="<?php echo Conectar::ruta();?>public/css/style.css">
+
+<link rel="stylesheet" href="<?php echo Conectar::ruta();?>public/css/login.css">
+
+
 
 
  

@@ -11,7 +11,7 @@ $usuario= new Usuarios();
     $usuario->login();
     exit();
  }
-
+ 
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +29,6 @@ $usuario= new Usuarios();
 	 		</div><!--row-->
 	 	</div><!--container-->
 	 	<div class="container">
-	 	
 	 		<div class="row">
 	 			<div class="col-sm-5 col-sm-offset-3">
 	 				<form method="post" action="">
